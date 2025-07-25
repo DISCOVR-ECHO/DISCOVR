@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='An unofficial implementation of TubeViT in "Rethinking Video ViTs: Sparse Video Tubes for Joint Image and Video Learning".',
-    author='Su YR',
+    author='Anonymous',
     license="MIT",
 )
