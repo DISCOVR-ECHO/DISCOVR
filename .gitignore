@@ -1,0 +1,18 @@
+# Exclude model checkpoint files
+*.pth
+*.pt
+
+# Exclude results directory (including all subfolders and files)
+results/
+**/results
+
+# Exclude all wandb logs and runs (at any depth)
+wandb/
+**/wandb/
+
+# Ignore Python cache directories
+__pycache__/
+**/__pycache__/
+
+# Ignore SLURM output files
+slurm-* 
